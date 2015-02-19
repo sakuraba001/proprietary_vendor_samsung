@@ -83,6 +83,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/d2lte/proprietary/blobs/spr/lib/libsec-ril.so:system/blobs/spr/lib/libsec-ril.so \
     vendor/samsung/d2lte/proprietary/blobs/vzw/lib/libril.so:system/blobs/vzw/lib/libril.so \
     vendor/samsung/d2lte/proprietary/blobs/vzw/lib/libsec-ril.so:system/blobs/vzw/lib/libsec-ril.so \
+    vendor/samsung/d2lte/proprietary/blobs/kdi/lib/libril.so:system/blobs/kdi/lib/libril.so \
+    vendor/samsung/d2lte/proprietary/blobs/kdi/lib/libsec-ril.so:system/blobs/kdi/lib/libsec-ril.so \
     vendor/samsung/d2lte/proprietary/lib/libatparser.so:system/lib/libatparser.so \
     vendor/samsung/d2lte/proprietary/lib/libcordon.so:system/lib/libcordon.so \
     vendor/samsung/d2lte/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
