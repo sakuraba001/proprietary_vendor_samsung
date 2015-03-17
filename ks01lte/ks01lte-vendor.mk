@@ -16,8 +16,12 @@
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
+    com.qualcomm.location \
     libHevcSwDecoder \
     libtime_genoff \
-    libmm-abl
+    libmm-abl \
+    libTimeService \
+    TimeService \
+    liblisten
 
 $(call inherit-product, vendor/samsung/ks01lte/ks01lte-vendor-blobs.mk)
