@@ -66,6 +66,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/d2lte/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/samsung/d2lte/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/samsung/d2lte/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+    vendor/samsung/d2lte/proprietary/bin/sec-ril:system/bin/sec-ril \
     vendor/samsung/d2lte/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/samsung/d2lte/proprietary/bin/efsks:system/bin/efsks \
     vendor/samsung/d2lte/proprietary/bin/ks:system/bin/ks \
