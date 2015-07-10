@@ -67,14 +67,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/d2kdi/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/samsung/d2kdi/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/samsung/d2kdi/proprietary/bin/sec-ril:system/bin/sec-ril \
-    vendor/samsung/d2kdi/proprietary/blobs/gsm/lib/libril.so:system/blobs/gsm/lib/libril.so \
-    vendor/samsung/d2kdi/proprietary/blobs/gsm/lib/libsec-ril.so:system/blobs/gsm/lib/libsec-ril.so \
-    vendor/samsung/d2kdi/proprietary/blobs/r530/lib/libril.so:system/blobs/r530/lib/libril.so \
-    vendor/samsung/d2kdi/proprietary/blobs/r530/lib/libsec-ril.so:system/blobs/r530/lib/libsec-ril.so \
-    vendor/samsung/d2kdi/proprietary/blobs/spr/lib/libril.so:system/blobs/spr/lib/libril.so \
-    vendor/samsung/d2kdi/proprietary/blobs/spr/lib/libsec-ril.so:system/blobs/spr/lib/libsec-ril.so \
-    vendor/samsung/d2kdi/proprietary/blobs/vzw/lib/libril.so:system/blobs/vzw/lib/libril.so \
-    vendor/samsung/d2kdi/proprietary/blobs/vzw/lib/libsec-ril.so:system/blobs/vzw/lib/libsec-ril.so \
     vendor/samsung/d2kdi/proprietary/blobs/kdi/lib/libril.so:system/blobs/kdi/lib/libril.so \
     vendor/samsung/d2kdi/proprietary/blobs/kdi/lib/libril-qc-qmi-1.so:system/blobs/kdi/lib/libril-qc-qmi-1.so \
     vendor/samsung/d2kdi/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
