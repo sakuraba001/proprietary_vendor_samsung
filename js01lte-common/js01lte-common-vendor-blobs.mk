@@ -29,8 +29,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/js01lte-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/samsung/js01lte-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/samsung/js01lte-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
-    vendor/samsung/js01lte-common/proprietary/vendor/firmware/bcm4335_V0093.0399_wisol.hcd:system/vendor/firmware/bcm4335_V0093.0399_wisol.hcd \
-    vendor/samsung/js01lte-common/proprietary/vendor/firmware/bcm4335_V0093.0399.hcd:system/vendor/firmware/bcm4335_V0093.0399.hcd \
+    vendor/samsung/js01lte-common/proprietary/vendor/firmware/bcm4335_V0105.0467_wisol.hcd:system/vendor/firmware/bcm4335_V0105.0467_wisol.hcd \
+    vendor/samsung/js01lte-common/proprietary/vendor/firmware/bcm4335_V0105.0467.hcd:system/vendor/firmware/bcm4335_V0105.0467.hcd \
+    vendor/samsung/js01lte-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/samsung/js01lte-common/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
+    vendor/samsung/js01lte-common/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
+    vendor/samsung/js01lte-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
+    vendor/samsung/js01lte-common/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
+    vendor/samsung/js01lte-common/proprietary/vendor/lib/libscve_stub.so:system/vendor/lib/libscve_stub.so \
     vendor/samsung/js01lte-common/proprietary/etc/C13QL_s5k3l2xx_module_info.xml:system/etc/C13QL_s5k3l2xx_module_info.xml \
     vendor/samsung/js01lte-common/proprietary/etc/C13QS_imx135_module_info.xml:system/etc/C13QS_imx135_module_info.xml \
     vendor/samsung/js01lte-common/proprietary/etc/D13QL_s5k3l2xx_module_info.xml:system/etc/D13QL_s5k3l2xx_module_info.xml \
@@ -247,6 +253,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/js01lte-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/samsung/js01lte-common/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/samsung/js01lte-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/samsung/js01lte-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/js01lte-common/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
     vendor/samsung/js01lte-common/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/samsung/js01lte-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
@@ -256,6 +263,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/js01lte-common/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/samsung/js01lte-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/samsung/js01lte-common/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
+    vendor/samsung/js01lte-common/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
     vendor/samsung/js01lte-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/samsung/js01lte-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/samsung/js01lte-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
@@ -264,6 +272,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/js01lte-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/samsung/js01lte-common/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/samsung/js01lte-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+    vendor/samsung/js01lte-common/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/samsung/js01lte-common/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
     vendor/samsung/js01lte-common/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     vendor/samsung/js01lte-common/proprietary/etc/sec_config:system/etc/sec_config \
@@ -299,4 +308,3 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/js01lte-common/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
     vendor/samsung/js01lte-common/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     vendor/samsung/js01lte-common/proprietary//vendor/lib/libqti-perfd-client.so:system//vendor/lib/libqti-perfd-client.so
-
